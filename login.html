@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting-System</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+        <div class="head">
+            <p>Online Voting System</p>
+        </div>
+        <div class="intro">
+            <p>Welcome to Online Voting System</p><br>
+            <img src="images/logo.png" alt="logo"><br>
+        </div>
+        <div class="form">
+            <img src="images/person.png" alt="">
+            <form action="api/login.php" method="POST">
+                <input type="tel" name="phone" placeholder="Phone No." required><br>
+                <input type="password" name="password" placeholder="Password" required><br>
+                <select name="role" required>
+                    <option style="color: rgb(175, 175, 175);">Select your role</option>
+                    <option value="1">Voter</option>
+                    <option value="2">Candidate</option>
+                </select>
+                <button type="submit">Login</button><br>
+
+                <p>Not Registered?<a href="register.html">  Register Here</a></p>
+            </form>
+        </div>
+        <div class="def">
+            <p>Online Voting is a web-based voting system that will help you manage your elections easily and securely. In this system the voter do not have to go to the polling booth to cast their vote. They can use their personal computer to cast their votes. There is a database which is maintained in which all the name of the voters with their complete information is stored.</p>
+        </div>
+        
+</body>
+</html>

@@ -1,0 +1,120 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(245, 245, 255);
+    font-family: sans-serif;
+    color: #0064c1;
+}
+.head{
+    background-color: #1682e7;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.head p{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    cursor: context-menu;
+}
+.head p a button{
+    width: 83px;
+    height: 40px;
+    margin-left: -76px;
+    float: right;
+    border: #f5f5ff 2px solid;
+    border-radius: 15px;
+    font-size: 17px;
+    background: #1682e7;
+    color: white;
+    cursor: pointer;
+}
+.head p a button:hover{
+    background: #f5f5ff;
+    color: #1682e7;
+
+    font-weight: bold;
+}
+.profile{
+    width: 35%;
+    background: white;
+    border: #1682e7 outset 2px;
+    border-radius: 17px;
+    margin-top: 25px;
+    margin-left: 30px;
+    padding: 10px;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    
+}
+.profile img{
+    width: 250px;
+    height: 250px;
+    border: #1682e7 inset 2px;
+    border-radius: 140px;
+
+}
+.profile p{
+    margin-bottom: 23px;
+    cursor: context-menu;
+}
+.profile p b{
+    color: #003868;
+    letter-spacing: 1px;
+}
+.cand{
+    width: 53%;
+    float: right;
+    border: #1682e7 inset 2px;
+    border-radius: 17px;
+    padding: 10px 20px 20px 20px;
+    margin-top: 25px;
+    margin-right: 30px;
+    background: white;
+}
+.cand img{
+    float: right;
+    width: 150px;
+    border: #1682e7 outset 2px;
+    border-radius: 140px;
+}
+.cand p{
+    margin-bottom: 23px;
+    font-size: 19px;
+    letter-spacing: 1px;
+    cursor: context-menu;
+}
+.cand p b{
+    color: #003868;
+}
+.cand input[type=submit]{
+    width: 75px;
+    height: 38px;
+    font-size: 19px;
+    background: #f5f5ff;
+    border: #1682e7 2px outset;
+    color: #1682e7;
+    border-radius: 7px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.cand input[type=submit]:hover{
+    font-weight: bold;
+    background: #1682e7;
+    color: white;
+    border: #1682e7 2px outset;    
+}
+.cand button{
+    width: 75px;
+    height: 38px;
+    font-size: 19px;
+    color: #f5f5ff;
+    border: #1682e7 2px outset;
+    background: #1682e7;
+    border-radius: 7px;
+    letter-spacing: 1px;
+}

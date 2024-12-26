@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="head">
+        <p>Online Voting System</p>
+    </div>
+    <p>Registeration</p>
+    <div class="reg">
+        <form action="api/register.php" method="POST" enctype="multipart/form-data">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="tel" name="phone" placeholder="Phone No." required><br>
+            <input type="password" name="password" placeholder="Password" required>
+            <input type="password" name="cpassword" placeholder="Confirm Password" required><br>
+            <input type="address" name="address" placeholder="Address" required><br>
+            <b style="color: #0064c1;">Upload Image</b><br>
+            <input type="file" name="photo">
+            <select name="role" required>
+                <option style="color: rgb(139, 139, 139);">Select your role</option>
+                <option value="1">Voter</option>
+                <option value="2">Candidate</option>
+            </select><br>
+            <button type="submit">Register</button>
+            <p>Already Registered?<a href="login.html">  Login Here</a></p>
+
+        </form>
+    </div>
+</body>
+</html>
